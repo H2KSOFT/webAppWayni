@@ -1,0 +1,27 @@
+﻿@using WebAppWayni.Models;
+@model Usuario
+
+<h2>Eliminar Usuario</h2>
+
+<div class="row">
+    <div class="col-12">
+        <label for="Nombre" asp-for="Nombre"><b>Nombre:</b></label>
+        <label asp-for="Nombre" id="Nombre" name="Nombre">@Model?.Nombre</label>
+    </div>
+
+    <div class="col-12">
+        <label for="Apellido" asp-for="Apellido"><b>Apellido:</b></label>
+        <label asp-for="Apellido" id="Apellido" name="Apellido">@Model?.Apellido</label>
+    </div>
+
+    <div class="col-12">
+        <label for="Dni" asp-for="Dni"><b>DNI:</b></label>
+        <label asp-for="Dni" id="Dni" name="Dni">@Model?.Dni</label>
+    </div>
+</div>
+<div class="mb-3"></div>
+<form asp-action="Delete" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+    <button type="submit" class="btn btn-primary">Eliminar</button>
+    <button type="button" class="btn btn-danger" onclick="location.href='@Url.Action("Index", "Usuario")'">Cancelar</button>
+</form>

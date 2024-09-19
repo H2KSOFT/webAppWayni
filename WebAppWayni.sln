@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppWayni", "WebAppWayni\WebAppWayni.csproj", "{43E07641-2B02-4D6E-8169-C6D30ADD357C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWayni", "WebApiWayni\WebApiWayni.csproj", "{B2DB0A4E-480D-417A-AE4F-EF0FD22F9055}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43E07641-2B02-4D6E-8169-C6D30ADD357C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E07641-2B02-4D6E-8169-C6D30ADD357C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E07641-2B02-4D6E-8169-C6D30ADD357C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E07641-2B02-4D6E-8169-C6D30ADD357C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DB0A4E-480D-417A-AE4F-EF0FD22F9055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DB0A4E-480D-417A-AE4F-EF0FD22F9055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DB0A4E-480D-417A-AE4F-EF0FD22F9055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DB0A4E-480D-417A-AE4F-EF0FD22F9055}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7632540-1B01-4076-86F3-EBE6D159470B}
+	EndGlobalSection
+EndGlobal
